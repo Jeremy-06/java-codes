@@ -22,7 +22,7 @@ public class VideographyServices {
                     showAllServices();
                     break;
                 case 2:
-                    calculatePrice();
+                    calculatePrice(scanner);
                     break;
                 case 3:
                     System.out.println("Thank you for choosing our services!");
@@ -82,9 +82,7 @@ public class VideographyServices {
         System.out.println("     Includes: Company overview, service showcase, professional presentation");
     }
     
-    public static void calculatePrice() {
-        Scanner scanner = new Scanner(System.in);
-        
+    public static void calculatePrice(Scanner scanner) {
         System.out.println( "-".repeat(70) + "\n\t\t\t  Price Calculator \n" + "-".repeat(70));
         
         System.out.println("\t\t    Select a service category:\n");
