@@ -3,30 +3,26 @@ import java.util.Scanner;
 public class sampleGetter {
     
     static class Person{
-        private String name;
-        private int age;
+        private String course;
+        private String favoriteSubject;
         
-        Person(String name, int age){
-            this.name = name;
-            this.age = age;
+        Person(String course, String favoriteSubject){
+            this.course = course;
+            this.favoriteSubject = favoriteSubject;
         }
-        public String getName(){ return name; }
-        public int getAge(){ return age; }
+        public String getCourse(){ return course; }
+        public String getFavoriteSubject(){ return favoriteSubject; }
     }
-
-    
-}
-class main {
-public static void main(String[] args){
+    public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Name: ");
-        String name = scanner.next();
-        System.out.print("Age: ");
-        int age = scanner.nextInt();
+        System.out.print("Course: ");
+        String course = scanner.nextLine();
+        System.out.print("Favorite subject: ");
+        String favoriteSubject = scanner.nextLine();
 
-        sampleGetter outer = new sampleGetter();
-        Person person = new Person(name, age);
-        System.out.println(person.getName() + person.age);
+        Person person = new Person(course, favoriteSubject);
+        System.out.println(person.getCourse() + " - " + person.getFavoriteSubject());
+        scanner.close();
     }
 }
