@@ -1,19 +1,18 @@
+
 import java.util.Scanner;
 
-public class sampleGetter {
-    
-    static class Student{
-        private String course;
-        private String favoriteSubject;
-        
-        Student(String course, String favoriteSubject){
+public class sampleConstructor {
+
+    static class Student {
+        public String course;
+        public String favoriteSubject;
+
+        Student(String course, String favoriteSubject) {
             this.course = course;
             this.favoriteSubject = favoriteSubject;
         }
-        public String getCourse(){ return course; }
-        public String getFavoriteSubject(){ return favoriteSubject; }
     }
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Course: ");
@@ -22,7 +21,7 @@ public class sampleGetter {
         String favoriteSubject = scanner.nextLine();
 
         Student student = new Student(course, favoriteSubject);
-        System.out.println(student.getCourse() + " - " + student.getFavoriteSubject());
+        System.out.println(student.course + " - " + student.favoriteSubject);
         scanner.close();
     }
 }
