@@ -8,7 +8,7 @@ public class day3 {
         System.out.print("\nEnter a Number: ");
         double num = scanner.nextDouble();
         evenOdd(num);
-
+        scanner.close();
     }
     static void evenOdd(double num){
         if (num % 2 == 1 ){
