@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class doubleJkery {
+public class DoubleJkery {
 
     // General-purpose UI constants and methods
     public static final String DIVIDER = "===========================================================\n";
