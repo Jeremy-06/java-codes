@@ -85,6 +85,9 @@ public class mekanInventory {
     private static Scanner scanner = new Scanner(System.in);
     
     public static void main(String[] args) {
+        System.out.println("\n═══════════════════════════════════════════");
+        System.out.println("    WELCOME TO MEKANINVENTORY SYSTEM <3");
+        System.out.println("═══════════════════════════════════════════");
         initializeItems();
         
         while (true) {
