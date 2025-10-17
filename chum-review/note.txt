@@ -1,0 +1,44 @@
+Programming fundamentals
+    a. Output operations
+    b. Escape sequences
+    c. Placeholders
+    d. Input operations
+
+Operators
+    a. Arithmetic operators
+    b. Assignment operators
+    c. Bitwise operators
+
+Strings
+    a. String handling
+
+Typecasting
+    a. Typecasting
+
+Built-in Libraries
+    a. Predefined character functions
+    b. Predefined string functions
+    c. Predefined math functions
+
+Selection Structures
+    a. Relational operators
+    b. Boolean operators
+    c. If statement
+    d. If...else statement
+    e. If...else if...else statement
+    f. Switch statement
+    g. Nested decision
+
+Iterative Structures
+    a. While loop
+    b. For loop
+    c. Nested loop
+    d. Break
+    e. Continue
+
+Arrays
+    a. One dimensional arrays
+    b. Two dimensional arrays
+    c. Array Traversal
+
+    
